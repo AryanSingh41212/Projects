@@ -1,0 +1,19 @@
+Field Name,Definition,Examples
+product_id,Unique identifier for each product,
+product_name,Short product name without brand or size details,
+full_product_name,Complete product name including brand product name and size,[Brand] - [Product Name] - [Size]
+category,High-level product category,"Extracts, Vapes, Flower"
+sub_category,Second-level product categorization within the main category,
+sub_sub_category,Third-level product categorization - most granular product type classification,
+product_segmentation,Market positioning tier or price segment,"Premium, Value, Ultra Premium"
+size,Product size with units,"20ml, 30ml, 15 caps, 0.5g"
+brand,Consumer-facing brand name as displayed to consumers,
+parent_brand,Parent company or umbrella brand (may be the same as brand or a larger umbrella brand),
+agency,Sales agency or distribution channel,"Independent, Kindred"
+province,Canadian province where product is sold,
+supplier_name,Legal name of the product supplier/manufacturer (official registered business name),
+case_size,Number of individual packs per case for wholesale ordering (stores order in cases),
+pack_size,Number of units per individual pack (consumers purchase in packs),"15 capsules per bottle, 1 cartridge per pack"
+unit_weight,Weight of a single unit in grams (often NULL for oils/capsules populated for vapes and flower),
+assortment_size,Size classification for assortment planning,"Small, Medium, Large, Uncategorized"
+pack_weight,Total weight per pack calculated as pack_size * unit_weight (NULL when unit_weight is NULL),

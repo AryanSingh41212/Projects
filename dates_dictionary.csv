@@ -1,0 +1,11 @@
+Field Name,Definition,Examples
+date_week,Week end date of the weekly data observation (rolling 7 days of data),
+year,Calendar year as a numeric value,
+month,Calendar month as a numeric value,
+quarter,Calendar quarter as a numeric value,
+week_of_year,Sequential week number within the calendar year,1-52/53
+month_name,Full name of the month,"January, February, March"
+month_start_date,First day of the calendar month,
+month_end_date,Last day of the calendar month,
+quarter_start_date,First day of the calendar quarter,"Jan 1, Apr 1, Jul 1, Oct 1"
+week_end_date,Ignore this field,

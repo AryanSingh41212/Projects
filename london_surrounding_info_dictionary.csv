@@ -1,0 +1,14 @@
+Field Name,Definition,Examples
+date,Week end date of the weekly data observation (rolling 7 days of data),
+product_id,Unique identifier for the product being tracked (foreign key to products table),
+store_id,Unique identifier for the retail store location (foreign key to stores table),
+banner_id,Unique identifier for the retail banner/brand,"Tokyo Smoke, Value Buds"
+account_id,Unique identifier for the parent account that owns the store(s),
+province,Canadian province where the store is located,
+retail_price,Menu price displayed to customers at the store,
+retail_discount,Discount amount applied to the menu price (NULL if no discount),
+retail_purchase_price,Unit price at which the retailer purchased the product from the supplier,
+msrp,Manufacturer's Suggested Retail Price,
+inventory_on_hand,Current quantity of units available in store inventory at the end of the week,
+inventory_change,Change in inventory quantity from the previous week,"positive = restocked, negative = sold"
+retail_unit_sales,Estimated number of units sold during the week based on inventory changes,

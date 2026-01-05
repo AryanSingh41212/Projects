@@ -1,0 +1,16 @@
+Field Name,Definition,Examples
+store_id,Unique identifier for each retail store location,
+store_name,Display name of the store as it appears to customers,
+account_type,Type of account ownership,"Independent, Multi-Unit, Government"
+banner_id,Unique identifier for the retail banner/brand that the store operates under,
+banner_name,Name of the retail banner/brand,"Tokyo Smoke, Fire & Flower, 1922"
+account_id,Unique identifier for the parent account that owns the store(s),
+account_name,Name of the parent company or account that operates the store(s),
+street,Street address of the store location,
+postalcode,Postal code of the store location,
+province,Canadian province where the store is located,
+region,Regional classification within the province,"GTA, Toronto, West, East"
+city,City or municipality where the store is located,
+location_type,Classification of the area type based on postalcode,"Urban, Rural"
+latitude,Geographic latitude coordinate of the store location,
+longitude,Geographic longitude coordinate of the store location,
